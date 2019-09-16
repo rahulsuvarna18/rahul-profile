@@ -1,21 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
-  <meta charset="UTF-8">
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-  <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js"></script>
-  <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js"></script>
-  <script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js"></script>
-
-  <title></title>
-</head>
-<body>
-
-<div id="large-header" class="large-header">
-  <canvas id="demo-canvas"></canvas>
-  <h1 class="main-heading">I'm Rahul Suvarna</h1>
-  <h1><span id="typed"></span></h1>
+<div class="home-content" style="display: block">
+  <%= render "shared/firsthome" %>
 </div>
-</body>
-</html>
+
+
+<div class="loader" style="display: none">
+  <%= render "shared/text" %>
+</div>
+
+
+<script>
+  const search = document.querySelector("#home-search")
+  const loader = document.querySelector(".loader")
+  const content = document.querySelector(".home-content")
+  search.addEventListener("click", () => {
+    content.style.display = "none"
+    loader.style.display = "block"
+  })
+</script>
+
+<script>
+  const search2 = document.querySelector("#cool-search")
+  const loader2 = document.querySelector(".loader")
+  const content2 = document.querySelector(".home-content")
+  search2.addEventListener("click", () => {
+    content2.style.display = "block"
+    loader2.style.display = "none"
+  })
+</script>
+
