@@ -1,6 +1,6 @@
 body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
 
-.main-text-fill {
+p {
   text-transform: uppercase;
   letter-spacing: .5em;
   display: inline-block;
@@ -13,7 +13,7 @@ body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,
   width: 40em;
   margin: 0 0 0 -20em;
 
-  .animation-text-fill {
+  span {
 
     font: 700 4em/1 "Oswald", sans-serif;
     letter-spacing: 0;
@@ -46,4 +46,18 @@ body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,
 @-webkit-keyframes aitf {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
+}
+
+
+.main-button2 {
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+
+.btn-primary {
+  background-color: #FF5816;
 }
