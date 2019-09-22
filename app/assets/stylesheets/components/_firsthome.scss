@@ -10,7 +10,7 @@
 }
 
 #large-header {
-  background: black;
+  background: url("https://static.videezy.com/system/resources/thumbnails/000/010/372/original/loop-of-soft-pink-lights-moving-and-fading-on-4k-dark-background.jpg");
 }
 
 #typed {
@@ -23,6 +23,7 @@
   left: 50%;
   -webkit-transform: translate3d(-50%,-50%,0);
   transform: translate3d(-50%,-50%,0);
+  font-size: 25px;
 }
 
 .demo-1 .main-title {
@@ -51,6 +52,7 @@
   left: 50%;
   -webkit-transform: translate3d(-50%,-50%,0);
   transform: translate3d(-50%,-50%,0);
+  font-size: 25px;
 }
 
 
@@ -61,4 +63,31 @@
   left: 50%;
   -webkit-transform: translate3d(-50%,-50%,0);
   transform: translate3d(-50%,-50%,0);
+}
+
+.about-page {
+  color: white;
+  height: 100vh;
+  background: url("https://res.cloudinary.com/rahulsuvarna18/image/upload/v1569141287/Rahul1_tx7qq0.png");
+  box-sizing: content-box;
+}
+
+.projects-page {
+  color: white;
+  height: 100vh;
+}
+
+.about {
+  padding: 37px;
+}
+
+body {
+  padding: 20px;
+  background-color: white;
+}
+
+.about-text {
+  width: 50%;
+  border: solid transparent 10px;
+  margin-right: 10px ;
 }
