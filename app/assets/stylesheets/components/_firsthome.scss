@@ -65,6 +65,9 @@
   transform: translate3d(-50%,-50%,0);
 }
 
+
+//about page css
+
 .about-page {
   color: white;
   box-sizing: content-box;
@@ -77,10 +80,7 @@
   background: #000000;
 }
 
-.projects-page {
-  color: white;
-  height: 100vh;
-}
+
 
 .about {
   padding: 37px;
@@ -107,3 +107,57 @@
   background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(11,11,11,1) 23%, rgba(97,27,61,1) 72%);
 }
+
+
+
+//project page css
+
+.projects-page {
+  color: white;
+  display: flexbox;
+}
+
+.project-title {
+  padding: 37px;
+}
+
+.fireevents-image {
+  max-width: 100%;
+  max-height: 100%;
+  background: #000000;
+  margin-bottom: 19px;
+}
+
+.pool3r-image {
+  max-width: 100%;
+  max-height: 100%;
+  background: #000000;
+  margin-bottom: 19px;
+}
+
+h4.fireevents-text {
+  bottom: 212px;
+  padding: 17px;
+  font-size: 16px;
+  color: white;
+}
+
+
+.fireevents-title {
+  color: white;
+  font-size: 30px;
+}
+
+.pool3r-title {
+  color: white;
+  font-size: 30px;
+}
+
+h4.pool3r-text {
+  bottom: 212px;
+  padding: 17px;
+  font-size: 16px;
+  color: white;
+}
+
+
